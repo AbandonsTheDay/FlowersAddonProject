@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
 
 body {
   padding-left: 40px;
@@ -38,6 +39,46 @@ h2 {
   box-shadow: 3px 2px 3px grey;
   cursor: pointer;
 }
+
+.flower-images {
+  display: block;
+  max-width: 500px;
+}
+
+.hero-button a:link {
+  text-decoration: none;
+  color: rgb(202, 184, 167);
+}
+
+.grids {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 46px;
+
+  margin: 60px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  padding: 10px;
+  grid-template-columns: 2fr, 1fr;
+}
+.grid-text {
+  font-family: "Alice", serif;
+  margin-bottom: 150px;
+  text-align: justify;
+  font-size: 26px;
+  padding: 20px;
+}
+
+.grid-header {
+  font-size: 45px;
+  padding: 20px;
+  color: rgb(202, 184, 167);
+}
+
 footer {
   text-align: center;
 }
