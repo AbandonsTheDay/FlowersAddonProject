@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
 
 body {
+  background-color: floralwhite;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -43,6 +44,13 @@ h2 {
 .flower-images {
   display: block;
   max-width: 500px;
+  border-radius: 4px;
+}
+
+.flower-sites {
+  display: block;
+  max-width: 425px;
+  border-radius: 4px;
 }
 
 .hero-button a:link {
@@ -50,12 +58,18 @@ h2 {
   color: rgb(202, 184, 167);
 }
 
+.button-text:hover {
+  color: rgb(200, 122, 86);
+}
+
+.button-text:visited {
+  color: rgb(200, 122, 86);
+}
 .grids {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 46px;
-
   margin: 60px;
 }
 
@@ -63,7 +77,21 @@ h2 {
   display: grid;
   grid-gap: 20px;
   padding: 10px;
-  grid-template-columns: 2fr, 1fr;
+  grid-template-columns: 1fr, 1fr;
+}
+
+.grid-2 {
+  display: grid;
+  grid-gap: 20px;
+  padding: 10px;
+  grid-template-columns: 1fr, 1fr;
+}
+
+.flower-table {
+  display: block;
+  padding-left: 46px;
+  margin: 60px;
+  max-width: 150px;
 }
 .grid-text {
   font-family: "Alice", serif;
@@ -71,12 +99,34 @@ h2 {
   text-align: justify;
   font-size: 26px;
   padding: 20px;
+  font-weight: lighter;
 }
 
 .grid-header {
   font-size: 45px;
   padding: 20px;
   color: rgb(202, 184, 167);
+}
+
+.table-heading {
+  font-family: "Inknut Antiqua", serif;
+  text-align: center;
+  font-size: 40px;
+  opacity: 0.3;
+}
+
+.table-subheading {
+  text-align: center;
+  font-size: 28px;
+  font-family: "Alice", serif;
+  opacity: 0.3;
+}
+.table-text {
+  font-family: "Alice", serif;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 200;
 }
 
 footer {
