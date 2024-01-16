@@ -47,10 +47,10 @@ h2 {
   border-radius: 4px;
 }
 
-.flower-sites {
-  display: block;
-  max-width: 425px;
+.flower-cards {
   border-radius: 4px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
 }
 
 .hero-button a:link {
@@ -87,8 +87,16 @@ h2 {
   grid-template-columns: 1fr, 1fr;
 }
 
-.flower-table {
-  display: block;
+.flower-section-1 {
+  display: flex;
+  padding-left: 46px;
+  margin: 20px;
+  max-width: 150px;
+  overflow: hidden;
+}
+
+.flower-section-2 {
+  display: flex;
   padding-left: 46px;
   margin: 60px;
   max-width: 150px;
@@ -106,29 +114,48 @@ h2 {
   font-size: 45px;
   padding: 20px;
   color: rgb(202, 184, 167);
+  font-family: "Inknut Antiqua", serif;
 }
 
-.table-heading {
+.section-heading {
   font-family: "Inknut Antiqua", serif;
   text-align: center;
-  font-size: 40px;
-  opacity: 0.3;
+  font-size: 45px;
+  margin-bottom: 10px;
+  color: rgb(202, 184, 167);
 }
 
-.table-subheading {
+.section-subheading {
   text-align: center;
   font-size: 28px;
   font-family: "Alice", serif;
-  opacity: 0.3;
+  opacity: 0.4;
+  padding: 15px;
 }
-.table-text {
+.section-text {
   font-family: "Alice", serif;
   font-size: 16px;
-  text-align: left;
+  text-align: center;
   margin-top: 10px;
   font-weight: 200;
+  padding: 15px;
+}
+
+.flowers-container {
+  max-width: 580px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(202, 184, 167, 0.4);
 }
 
 footer {
   text-align: center;
+}
+
+.flower-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: 100%;
 }
