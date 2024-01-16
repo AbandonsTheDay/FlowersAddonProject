@@ -152,10 +152,22 @@ footer {
   text-align: center;
 }
 
+.flower-videos {
+  display: flex;
+  align-content: center;
+  aspect-ratio: 16/9;
+  margin: auto;
+}
+
 .flower-card {
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 20px;
   width: 100%;
+}
+.grid-container1 {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
 }
