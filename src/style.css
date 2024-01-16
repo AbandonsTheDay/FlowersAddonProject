@@ -47,15 +47,6 @@ h2 {
   border-radius: 4px;
 }
 
-/*.flower-cards {
-  text-align: center;
-  border-radius: 4px;
-  width: 400px;
-  height: 200px;
-  padding-left: 20px;
-  border-bottom: 1px solid #ddd;
-}*/
-
 .hero-button a:link {
   text-decoration: none;
   color: rgb(202, 184, 167);
@@ -83,27 +74,6 @@ h2 {
   grid-template-columns: 1fr, 1fr;
 }
 
-.grid-2 {
-  display: grid;
-  grid-gap: 20px;
-  padding: 10px;
-  grid-template-columns: 1fr, 1fr;
-}
-
-.flower-section-1 {
-  display: flex;
-  padding-left: 46px;
-  margin: 20px;
-  max-width: 150px;
-  overflow: hidden;
-}
-
-.flower-section-2 {
-  display: flex;
-  padding-left: 46px;
-  margin: 60px;
-  max-width: 150px;
-}
 .grid-text {
   font-family: "Alice", serif;
   margin-bottom: 150px;
@@ -128,51 +98,13 @@ h2 {
   color: rgb(202, 184, 167);
 }
 
-.section-subheading {
-  text-align: center;
-  font-size: 28px;
-  font-family: "Alice", serif;
-  opacity: 0.4;
-  padding: 15px;
-}
-.section-text {
-  font-family: "Alice", serif;
-  font-size: 16px;
-  text-align: center;
-  margin-top: 10px;
-  font-weight: 200;
-}
-
-.flowers-container {
-  width: 400px;
-  height: 400px;
-  margin-bottom: 20px;
-  background-color: rgb(202, 184, 167, 0.4);
-}
-
-footer {
-  text-align: center;
-}
-
 .flower-videos {
   display: flex;
   align-content: center;
-  aspect-ratio: 16/9;
+  aspect-ratio: 21/9;
   margin: auto;
 }
 
-/*.flower-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  width: 800px;
-  height: 400px;
-}*/
-.grid-container1 {
-  margin-bottom: 20px;
-  display: grid;
-  grid-template-columns: 1fr, 1fr, 1fr;
-}
 .flower {
   width: 300px;
   height: 300px;
@@ -185,20 +117,49 @@ footer {
 }
 
 card {
+  margin-bottom: 20px;
+  margin-top: 20px;
   height: 300px;
   width: 300px;
 }
 
-.a-border {
+.flower-border {
   border: rgb(202, 184, 167, 0.4) 2px solid;
   max-width: fit-content;
   background-color: rgb(202, 184, 167, 0.4);
 }
 
+.flower-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .card-text {
   font-size: 24px;
   margin-top: 8px;
   padding: 10px;
   font-family: "Alice", serif;
   opacity: 0.4;
+}
+.flowergrid-container {
+  padding-top: 80px;
+  padding-left: 120px;
+  margin-bottom: 120px;
+}
+.video-grid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+}
+.video-border {
+  margin-top: 80px;
+  border: rgb(202, 184, 167, 0.4) 2px solid;
+  max-width: 100%;
+  padding-bottom: 20px;
+  background-color: rgb(202, 184, 167, 0.4);
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
